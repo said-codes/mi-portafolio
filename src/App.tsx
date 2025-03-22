@@ -24,31 +24,45 @@ function FloatingCube() {
 
 const skills = [
   { name: 'Frontend', icon: <Code2 className="w-8 h-8 mb-4" />, items: ['React', 'Vue', 'JavaScript', 'CSS'] },
-  { name: 'Backend', icon: <Brain className="w-8 h-8 mb-4" />, items: ['Java', 'Python', 'Django', 'SQL'] },
+  { name: 'Backend', icon: <Brain className="w-8 h-8 mb-4" />, items: ['Java', 'Python', 'Django','Ruby On Rails', 'SQL'] },
   { name: 'DevOps', icon: <Rocket className="w-8 h-8 mb-4" />, items: ['Git', 'Docker'] }
 ];
 
 const projects = [
   {
-    title: 'Sistema de Gestión Empresarial',
-    description: 'Plataforma completa para la gestión de recursos empresariales desarrollada con Java y Spring Boot',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
-    github: 'https://github.com/yourusername/enterprise-management',
-    tags: ['Java', 'Spring Boot', 'PostgreSQL']
+    title: 'Task Manager',
+    description: 'Aplicación de gestión de tareas con Django',
+    image: '/media/Captura_de_pantalla_2024-11-12_141004.png',
+    github: 'https://github.com/said-codes/django-project',
+    tags: ['Python', 'Django', 'PostgreSQL','Docker']
   },
   {
-    title: 'Plataforma E-learning',
-    description: 'Sistema de aprendizaje en línea con características avanzadas usando Django y React',
-    image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8',
-    github: 'https://github.com/yourusername/elearning-platform',
-    tags: ['Python', 'Django', 'React']
+    title: 'Halo web',
+    description: 'Sitio web de Halo con diseño interactivo',
+    image: '/media/Captura de pantalla 2025-03-21 172418.png',
+    github: 'https://github.com/said-codes/halo-web',
+    tags: ['HTML', 'CSS', 'JavaScript']
   },
   {
-    title: 'Dashboard Analytics',
-    description: 'Panel de control interactivo para visualización de datos en tiempo real',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
-    github: 'https://github.com/yourusername/analytics-dashboard',
-    tags: ['React', 'D3.js', 'Node.js']
+    title: 'Instagram Clon',
+    description: 'Clon de Instagram, red social, con Django',
+    image: '/media/Captura_de_pantalla_2024-11-12_135932.png',
+    github: 'https://github.com/said-codes/instagram-clone-django',
+    tags: ['Python', 'Django']
+  },
+  {
+    title: 'Microdoft To Do Clon',
+    description: 'Clon de Microsoft To Do, aplicación para la gestión de tareas',
+    image: '/media/Captura de pantalla 2025-03-09 182228.png',
+    github: 'https://github.com/said-codes/to-do-django-vue',
+    tags: ['Python', 'Django','Vue']
+  },
+  {
+    title: 'Twitter Clon',
+    description: 'Clon de de Twitter,red social, con Django y Vue',
+    image: '/media/Captura de pantalla 2025-03-21 175454.png',
+    github: 'https://github.com/said-codes/twitter-clone',
+    tags: ['Python', 'Django','Vue']
   }
 ];
 
@@ -200,7 +214,7 @@ function App() {
             transition={{ duration: 0.5 }}
           >
             <motion.a
-              href="https://github.com/yourusername"
+              href="https://github.com/said-codes"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center px-6 py-3 bg-gray-800 rounded-xl hover:bg-gray-700 transition-colors"
@@ -210,7 +224,7 @@ function App() {
               <span>GitHub</span>
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/valencia-castrillo-said/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center px-6 py-3 bg-gray-800 rounded-xl hover:bg-gray-700 transition-colors"
@@ -220,7 +234,7 @@ function App() {
               <span>LinkedIn</span>
             </motion.a>
             <motion.a
-              href="/cv.pdf"
+              href="/media/cv.pdf"
               download
               className="flex items-center px-6 py-3 bg-gray-800 rounded-xl hover:bg-gray-700 transition-colors"
               whileHover={{ scale: 1.05 }}
