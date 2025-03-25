@@ -63,6 +63,13 @@ const projects = [
     image: '/media/Captura de pantalla 2025-03-21 175454.png',
     github: 'https://github.com/said-codes/twitter-clone',
     tags: ['Python', 'Django','Vue']
+  },
+  {
+    title: 'Pagina de web de fundación caritas felices con pasión',
+    description: 'Pagina web de fundación dedicada a la recolección de tapas plásticas y actividades recreativas en los barrios de santa marta',
+    image: '/media/Captura de pantalla 2025-03-25 082221.png',
+    github: 'https://github.com/said-codes/caritas-felices',
+    tags: ['Vue', 'Three.js','Tailwindcss']
   }
 ];
 
