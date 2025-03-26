@@ -70,6 +70,13 @@ const projects = [
     image: '/media/Captura de pantalla 2025-03-25 082221.png',
     github: 'https://github.com/said-codes/caritas-felices',
     tags: ['Vue', 'Three.js','Tailwindcss']
+  },
+  {
+    title: 'Pagina de web superando toc',
+    description: 'Pagina web dedicada al toc y la psicologia',
+    image: '/media/Captura de pantalla 2025-03-25 230027.png',
+    github: 'https://github.com/said-codes/superando-el-toc-web',
+    tags: ['React', 'Supabase','Tailwindcss']
   }
 ];
 
