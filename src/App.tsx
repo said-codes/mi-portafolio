@@ -72,7 +72,7 @@ const projects = [
     tags: ['Vue', 'Three.js','Tailwindcss']
   },
   {
-    title: 'Pagina web superando toc',
+    title: 'Pagina web superando el toc',
     description: 'Pagina web dedicada al toc y la psicologia',
     image: '/media/Captura de pantalla 2025-03-25 230027.png',
     github: 'https://github.com/said-codes/superando-el-toc-web',
