@@ -139,7 +139,7 @@ function App() {
             Soy un tecnólogo en Análisis y Desarrollo de Sistemas de Información egresado del sena Colombo Alemán en barranquilla, actualmente
             estudiando Ingeniría de Sistemas,con experiencia en creación de aplicaciones web.
             Especializado en Python/Django y Vue.js, con enfoque en buenas prácticas
-            de código limpio y optimización de rendimiento. Passion por implementar
+            de código limpio y optimización de rendimiento. Pasión por implementar
             soluciones tecnológicas innovadoras con impacto social y ambiental.
             Mi enfoque se centra en el aprendizaje continuo y la aplicación de nuevas
             tecnologías para resolver problemas de manera eficiente.
