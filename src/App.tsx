@@ -24,8 +24,8 @@ function FloatingCube() {
 
 const skills = [
   { name: 'Frontend', icon: <Code2 className="w-8 h-8 mb-4" />, items: ['React', 'Vue', 'JavaScript', 'CSS'] },
-  { name: 'Backend', icon: <Brain className="w-8 h-8 mb-4" />, items: ['Java', 'Python', 'Django','Ruby On Rails', 'SQL'] },
-  { name: 'DevOps', icon: <Rocket className="w-8 h-8 mb-4" />, items: ['Git', 'Docker'] }
+  { name: 'Backend', icon: <Brain className="w-8 h-8 mb-4" />, items: ['Java', 'Python', 'PHP' ,'Django',,'Larevel','Ruby On Rails', 'SQL'] },
+  { name: 'DevOps', icon: <Rocket className="w-8 h-8 mb-4" />, items: ['Git'] }
 ];
 
 const projects = [
